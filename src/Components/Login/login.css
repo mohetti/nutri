@@ -1,0 +1,38 @@
+#login-cp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#login-cp > h1 {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  padding: 20px 15px;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+#login-btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
